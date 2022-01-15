@@ -1,6 +1,5 @@
-var postObjects = [];
-
 document.querySelector("#app").innerHTML = "";
+// https://fitech.herokuapp.com/posts/
 const url = "https://jsonplaceholder.typicode.com";
 const row = document.querySelector("#row");
 if (row) row.innerHTML = `<h2>loading</h2>`;
